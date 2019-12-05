@@ -17,6 +17,7 @@ a {
   position: fixed;
   width: 100%;
   z-index: 30;
+  font-family: Avenir;
 }
 
 .header ul {
@@ -45,6 +46,17 @@ a {
   font-size: 2em;
   width: 220px;
   text-decoration: none;
+}
+.header img{
+   padding-left: 25%;
+   margin-top: -8px;
+   position: absolute;
+ }
+
+@media (min-width: 1200px) {
+  .header img {
+    padding-left: 1%;
+  }
 }
 
 /* menu */
