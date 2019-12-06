@@ -2,6 +2,16 @@ a {
   color: #000;
 }
 
+button{
+  background-color: #EDD892;
+}
+h1{
+  font-family: Noway;
+  font-size: 60px;
+
+}
+p {font-family: Avenir;
+font-size: 16px;}
 /* header */
 
 .header {
@@ -146,13 +156,26 @@ a {
   }
 }
 /*______________________FINN_________________header__________________*/
+/*______________________SECTION GIF__________________*/
 .section {
   text-align:center;
 }
 
 .prez {
   color: #f1f1f1;
+  padding: 1%;
 }
-.section 1{
 
+.prez button{
+  height: 53px;
+  width: 190px;
+  margin-top: 2%;
+}
+
+@media (min-width: 48em) {
+  .prez {
+    width: 35%;
+
+    margin-left: 32.5%;
+  }
 }
