@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Reflection</title>
-  <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'><link rel="stylesheet" href="./css/campagne.css">
-
+  <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'>
+    <link rel="stylesheet" href="./css/campagne.css"><link rel="stylesheet" href="./css/vidéo.css">
+    <script src="https://vjs.zencdn.net/4.0.4/video.js"></script>
 </head>
 <body>
 <header class="header">
@@ -32,7 +33,26 @@
             <button>Je veux découvrir !</button>
         </div>
     </article>
-    <article class="section 2">Section 2</article>
+    <article class="section 2">
+        <div class="Video 1">
+            <video id="my_video_1" class="video-js vjs-default-skin"
+                   controls preload="none" width="640px" height="267px" data-setup='{}'
+                   poster='http://video-js.zencoder.com/oceans-clip.jpg'>
+                <source src="./video/t12.mp4" type='video/mp4' />
+                <source src="./video/t12.webm" type='video/webm' />
+            </video>
+            <h2>Un regard sur soi TEMPO</h2>
+            <p>3 m 40</p>
+            <p>10 / 12 / 19</p>
+            <p>Une vidéo réalisée par l’équipe de
+                TEMPO qui propose d’imager
+                l’introspection et la prise de recul,
+                une démarche qui peut se
+                déclencher par l’exposition à des
+                idées véhiculées par l’art.
+            </p>
+        </div>
+    </article>
     <article class="section 3">
         <div class="slide 3g" data-anchor="slide1">Slide gauche</div>
         <div class="slide 3g" data-anchor="slide2">Slide Droite</div>
