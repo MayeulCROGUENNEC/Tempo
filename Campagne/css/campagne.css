@@ -188,3 +188,37 @@ font-size: 16px;}
 }
 
 /*______________________SECTION vidéo__________________*/
+
+
+h2{display: inline-block;}
+#dateetheure{
+  display: inline-block;
+  }
+
+.date{color: #919191;}
+
+
+@media (min-width: 48em) {
+  .Video1{display: flex;
+  margin-left: 5%;}
+  .my_video_1{
+    display: flex;
+    margin-left: 5%;}
+  #descrividéal{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 35%;
+  }
+  h2{display: inline-block;}
+   .time {
+     display: inline-block;
+    color: #000;
+     font-size: 10px;
+}
+  .date{
+    display: inline-block;
+    color: #919191;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}
