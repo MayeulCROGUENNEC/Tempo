@@ -271,3 +271,51 @@ h2{display: inline-block;}
   font-family: "Century Gothic";
 
 }
+
+.txtsliderend p{
+  font-size: 10px;
+}
+
+@media (max-width: 48em) {
+  .swiper-container {
+    width: 80%;
+    height: 80%;
+
+  }
+
+  .swiper-slide {
+    background-color: #fff;
+  }
+
+  .blue {
+    background-color: #fff;
+  }
+
+  .red {
+    background-color: #fff;
+  }
+
+  .green {
+    background-color: #fff;
+
+  }
+  .contensliderend{
+    margin-right: 0;
+  }
+  .imgsliderend{
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+  .txtsliderend{
+    position: relative;
+    top: 10px;
+    left: 1px;
+
+  }
+
+  .txtsliderend p{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
