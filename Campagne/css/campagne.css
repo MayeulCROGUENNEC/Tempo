@@ -16,6 +16,10 @@ h2{
   font-size: 30px;
 
 }
+h3{
+  font-family: Noway;
+  font-size: 24px;
+}
 
 p {font-family: Avenir;
 font-size: 16px;}
@@ -223,65 +227,47 @@ h2{display: inline-block;}
   }
 
 }
-/*______________________SECTION podcast__________________*/
-
-.section 4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  background-color: #222;
-  margin: 0;
-  padding: 0;
-}
-
+/*______________________SECTION____end___slider__________________*/
 .swiper-container {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width: 80%;
+  height: 75%;
+
 }
 
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 320px;
-  background-color: #fff;
-  overflow: hidden;
-  border-radius: 8px;
+  background-color: #E8985E;
+
 }
 
-.picture {
-  width: 320px;
-  height: 380px;
-  overflow: hidden;
-  background: #aaaaaa;
-  background: linear-gradient(270deg, #aaaaaa 0%, #dedede 35%, #e6e6e6 100%);
-}
-.picture img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+.blue {
+  background-color: #E8985E;
 }
 
-.detail {
-  padding: 25px 20px;
-  font-weight: 600;
-  text-align: center;
-  display: none;
+.red {
+  background-color: #E8985E;
+  display: inline-block;
 }
-.detail h3 {
-  margin: 0;
-  font-size: 20px;
-  color: #FFF;
+
+.green {
+  background-color: #E8985E;
+
 }
-.detail span {
-  display: block;
+.contensliderend{
+  padding: 0;
+  margin-top: -25px;
+  margin-left: 0;
+}
+.imgsliderend{
+  width: 65%;
+  height: 600px;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.txtsliderend{
+  width: 20%;
+  display: inline;
   font-size: 16px;
-  color: #FFF;
+  font-family: "Century Gothic";
+
 }
