@@ -219,6 +219,36 @@ h2{display: inline-block;}
   height: 100%;
   max-height: 1080px;
 }
+/*________________________________________section___________big_img______________________*/
+.containerimgbigg{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.imgbigggg{
+  width: 90%;
+}
+.imgprez{
+  margin-top: 2%;
+
+}
+@media (min-width: 48em) {
+  .containerimgbigg{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .imgbigggg{
+    display: inline;
+    float: right;
+    width: 60%;
+  }
+  .imgprez{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-top: 10%;
+  }
+}
+/*________________________________________section___________VIdeo2______________________*/
 
 .video-wrap 2 {
   position: relative;
@@ -673,4 +703,27 @@ html .ui-button.ui-state-disabled:active {
     float: right;
     background-color: #E8985E;
   }
+}
+
+.carréfontsection6{
+  height: 100%;
+  margin-bottom: 0;
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+  float: right;
+  background-color: #E8985E;
+}
+
+@media (max-width: 48em) {
+  .carréfontsection6{
+    height: 45%;
+    width: 40%;
+    top: 0px;
+    left: 60%;
+    background-color: #FFD900;
+  }
+
 }
