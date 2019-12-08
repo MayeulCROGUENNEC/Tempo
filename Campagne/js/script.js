@@ -1,5 +1,5 @@
 new fullpage('#fullpage', {
-  sectionsColor: ['#000', '#fff',  '#BAD1CD','#8332AC', '#B0DB43', '#CEC2FF', '#fff', '#F7AF9D'],
+  sectionsColor: ['#000', '#fff',  '#fff','#fff', '#fff', '#fff', '#fff', '#F7AF9D'],
 });
 
 /*______________________js podcast____________________________*/
