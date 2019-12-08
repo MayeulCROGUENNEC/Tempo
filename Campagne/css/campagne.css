@@ -587,6 +587,7 @@ html .ui-button.ui-state-disabled:active {
     top: 0px;
   }
   /*_____________________SECTION____end___slider_________________*/
+
   .swiper-container {
     width: 80%;
     height: 75%;
@@ -594,9 +595,7 @@ html .ui-button.ui-state-disabled:active {
     z-index: 100;
 
   }
-   swiper-slide-prev{
-  display: none;}
-}
+
 
   .swiper-slide {
     background-color: #E8985E;
