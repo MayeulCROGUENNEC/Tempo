@@ -594,6 +594,9 @@ html .ui-button.ui-state-disabled:active {
     z-index: 100;
 
   }
+   swiper-slide-prev{
+  display: none;}
+}
 
   .swiper-slide {
     background-color: #E8985E;
