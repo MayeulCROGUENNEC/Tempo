@@ -189,7 +189,7 @@ var mySwiper = new Swiper ('.swiper-container', {
   // Distance between slides in px.
   spaceBetween: 60,
   //
-  slidesPerView: 2,
+
   //
   centeredSlides: true,
   //
@@ -197,3 +197,12 @@ var mySwiper = new Swiper ('.swiper-container', {
   //
   grabCursor: true,
 })
+
+// Flèche scroll
+
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
