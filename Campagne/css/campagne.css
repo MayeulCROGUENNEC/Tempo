@@ -884,7 +884,8 @@ a span {
 }
 
 .footer img{
-  display: inline;
+  display: inline-block;
   width: 80px;
   height: 30px;
+
 }
