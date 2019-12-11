@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Avenir";
+  src: url('../font/Avenir/AvenirLTStd-Book.otf');
+}
+@font-face {
+  font-family: "CenturyGothic";
+  src: url('../font/century-gothic/CenturyGothic.TTF');
+}
+@font-face {
+  font-family: "CenturyGothicBold";
+  src: url('../font/century-gothic/CenturyGothicBold.ttf');
+}
+@font-face {
+  font-family: "Noway_Noway-Bold.otf";
+  src: url('../font/Noway/Noway-Bold.otf');
+}
+
+
+
 a {
   color: #000;
 }
@@ -8,22 +27,24 @@ button{
   border: none;
 }
 h1{
-  font-family: Noway, Helvetica, sans-serif;
+
   font-size: 60px;
 
 }
 h2{
-  font-family: Noway, Helvetica, sans-serif;
+  font-family: "Noway_Noway-Bold.otf";
   font-size: 30px;
 
 }
 h3{
-  font-family: Noway, Helvetica, sans-serif;
+  font-family: "Noway_Noway-Bold.otf";
   font-size: 24px;
 }
 
-p {font-family: Avenir, Helvetica, sans-serif;
+p {
+  font-family: "Avenir";
   font-size: 16px;}
+
 /* header */
 
 .header {
@@ -32,7 +53,7 @@ p {font-family: Avenir, Helvetica, sans-serif;
   position: fixed;
   width: 100%;
   z-index: 30;
-  font-family: Avenir;
+  font-family: "Avenir";
 }
 
 .header ul {
@@ -659,8 +680,8 @@ html .ui-button.ui-state-disabled:active {
   /*_____________________SECTION____end___slider_________________*/
 
   .swiper-container {
-    width: 70%;
-    height: 75%;
+    width: 60%;
+    height: 65%;
     position: relative;
     z-index: 100;
 
@@ -701,7 +722,7 @@ html .ui-button.ui-state-disabled:active {
     display: inline;
     font-size: 16px;
     padding-top: 20px;
-    font-family: "Century Gothic";
+    font-family: "CenturyGothic";
   }
 
   .txtsliderend h3{
@@ -757,6 +778,9 @@ html .ui-button.ui-state-disabled:active {
       padding-right: 5%;
     }
   }
+.pbold{
+  font-weight: bold;
+}
   /*__________________________carré__bacgrounnd____*/
   .carréfontsection4{
     height: 40%;
