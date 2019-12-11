@@ -189,8 +189,6 @@ var mySwiper = new Swiper ('.swiper-container', {
   // Distance between slides in px.
   spaceBetween: 60,
   //
-
-  //
   centeredSlides: true,
   //
   slidesOffsetBefore: 0,
