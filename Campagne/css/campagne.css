@@ -26,6 +26,7 @@ button{
   background-color: #EDD892;
   border: none;
   cursor: pointer;
+  font-family: "Avenir";
 }
 
 button:hover{
@@ -248,7 +249,7 @@ p {
   position: absolute;
   z-index: 100;
   bottom: 4%;
-  left: 20%;
+  left: 0%;
 }
 
 .reseauxmobile li{
@@ -301,6 +302,7 @@ p {
 h2{display: inline-block;}
 #dateetheure{
   display: inline-block;
+  text-align: right;
 }
 
 .date{color: #919191;}
@@ -754,7 +756,7 @@ html .ui-button.ui-state-disabled:active {
   }
   .imgsliderend{
     width: 65%;
-    height: 600px;
+    height: 500px;
     display: inline-block;
     float: left;
     position: relative;
@@ -964,7 +966,7 @@ a span {
 .footer{
   position: absolute;
   bottom: 10px;
-  left: 40%;
+  left: 25%;
   width: 200px;
   height: 31px;
   line-height: 31px;
@@ -979,4 +981,17 @@ a span {
   width: 80px;
   height: 30px;
 
+}
+
+@media (min-width: 48em) {
+  .footer{
+    left: 42%;
+  }
+}
+
+@media (max-width: 48em) {
+  iframe{
+    width: 400px;
+    height: 220px;
+  }
 }
