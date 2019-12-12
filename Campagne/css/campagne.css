@@ -25,7 +25,15 @@ a {
 button{
   background-color: #EDD892;
   border: none;
+  cursor: pointer;
 }
+
+button:hover{
+  background-color: #333;
+  color: #EDD892;
+  border: 1px solid #EDD892;
+}
+
 h1{
 
   font-size: 60px;
@@ -235,6 +243,30 @@ p {
     display: none;
   }
 }
+
+.reseauxmobile{
+  position: absolute;
+  z-index: 100;
+  bottom: 4%;
+  left: 20%;
+}
+
+.reseauxmobile li{
+  list-style: none;
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.reseauxmobile img{
+  height: 30px;
+  width: 30px;
+}
+
+@media (min-width: 48em) {
+  .reseauxmobile{
+    display: none;
+  }
+}
 /*_____________________FINN_________________header_________________*/
 /*_____________________SECTION GIF_________________*/
 .section {
@@ -252,10 +284,13 @@ p {
   margin-top: 2%;
 }
 
+.prez p{
+  margin: 10%;
+}
+
 @media (min-width: 48em) {
   .prez {
     width: 35%;
-
     margin-left: 32.5%;
   }
 }
@@ -298,7 +333,8 @@ h2{display: inline-block;}
   z-index: 100;
 }
 .imgbigggg{
-  width: 90%;
+  width: 180px;
+  height: 350px;
   box-shadow: 5px 5px 5px #333333;
 }
 .imgprez{
@@ -322,8 +358,9 @@ h2{display: inline-block;}
   }
   .imgbigggg{
     display: inline;
-    float: right;
-    width: 60%;
+    margin-right: 100px;
+    width: 300px;
+    height: 600px;
   }
   .imgprez{
     display: inline-block;
@@ -354,6 +391,11 @@ h2{display: inline-block;}
                 height: 100%;
                 max-height: 1080px;
               }
+
+#descrividéal {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 @media (min-width: 48em) {
 
@@ -722,6 +764,8 @@ html .ui-button.ui-state-disabled:active {
     display: inline;
     font-size: 16px;
     padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: "CenturyGothic";
   }
 
@@ -776,6 +820,8 @@ html .ui-button.ui-state-disabled:active {
     .txtsliderend p{
       padding-left: 5%;
       padding-right: 5%;
+      padding-top: 0;
+      font-size: 12px;
     }
   }
 .pbold{
@@ -796,10 +842,12 @@ html .ui-button.ui-state-disabled:active {
 
   .textsection6 h2{
     margin-bottom: 0;
+    font-size: 20px;
   }
 
   .textsection6 p{
     margin-top: 0;
+    font-size: 14px;
   }
 }
   /*__________________________carré__bacgrounnd____*/
@@ -834,8 +882,8 @@ html .ui-button.ui-state-disabled:active {
     margin-bottom: 0;
     width: 100%;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     z-index: 0;
     float: right;
     background-color: #E8985E;
@@ -847,8 +895,6 @@ html .ui-button.ui-state-disabled:active {
       margin-bottom: 0;
       width: 40%;
       position: absolute;
-      bottom: 0px;
-      right: 0px;
       z-index: 0;
       float: right;
       background-color: #E8985E;

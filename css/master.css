@@ -1,11 +1,52 @@
+@font-face {
+  font-family: "Avenir";
+  src: url('../font/Avenir/AvenirLTStd-Book.otf');
+}
+@font-face {
+  font-family: "CenturyGothic";
+  src: url('../font/century-gothic/CenturyGothic.TTF');
+}
+@font-face {
+  font-family: "CenturyGothicBold";
+  src: url('../font/century-gothic/CenturyGothicBold.ttf');
+}
+@font-face {
+  font-family: "Noway_Noway-Bold.otf";
+  src: url('../font/Noway/Noway-Bold.otf');
+}
+
 body{
   background-color: #4A6FA5;
   margin: 0;}
-h1{
-  font-size: 50px;
-  color: #f1f1f1;
-  font-family: Viga;
+
+
+a {
+  color: #000;
 }
+
+
+button{
+  background-color: #EDD892;
+  border: none;
+}
+h1{
+
+  font-size: 60px;
+
+}
+h2{
+  font-family: "Noway_Noway-Bold.otf";
+  font-size: 30px;
+
+}
+h3{
+  font-family: "Noway_Noway-Bold.otf";
+  font-size: 24px;
+}
+
+p {
+  font-family: "Avenir";
+  font-size: 16px;}
 /*_____________________________________________________________Header___________________________________________________*/
 a {
   color: #000;
@@ -20,6 +61,7 @@ a {
   width: 100%;
   z-index: 30;
   font-family: Avenir;
+  top: 0;
 }
 
 .header ul {
@@ -155,11 +197,13 @@ a {
   }
 }
 /*__________________________________________________________FIN___Header___________________________________________________*/
+/*____________________________________________________section_inspiration__________________________________________________*/
+
 /*__________________________________________________________section___vidéo___________________________________________________*/
 
 #sectionvidéo{
   color: #f1f1f1;
-  background-image: url('../img/Logo_tesla.gif');
+  background-image: url('../img/90e15b87caaaf174136187811d6a11f283b1284c.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -169,7 +213,7 @@ a {
 .content {
   top: 300px;
   color: #f1f1f1;
-  background-color: #4A6FA5;
+
   width: 80%;
   margin-left: 5%;
   text-align: left;
@@ -195,7 +239,7 @@ button{
   .content {
     margin-top: 10%;
     color: #f1f1f1;
-    background-color: #4A6FA5;
+
     width: 60%;
     margin-left: 20%;
     text-align: center;
@@ -205,152 +249,49 @@ button{
 
 /*_________________________________________________________FIN_section___vidéo___________________________________________________*/
 /*__________________________________________________________section___gallery___________________________________________________*/
-#galleries{
-  padding-top: 80px;
-  padding-bottom: 80px;
-  height: auto;
-  text-align: center;
-  background-color: #fff;
-}
-.main {
-  font-family:Arial;
-  width:500px;
-  display:block;
-  margin:0 auto;
-}
-
-.action{
-  display:block;
-  margin:100px auto;
-  width:100%;
-  text-align:center;
-}
-.action a {
-  display:inline-block;
-  padding:5px 10px;
-  background:#f30;
-  color:#fff;
-  text-decoration:none;
-}
-.action a:hover{
-  background:#000;
-}
-
-/* ________________________________________carousel1 __________________________________________*/
-.main {
-  font-family:Arial;
-  width:500px;
-  display:block;
-  margin:0 auto;
-}
-.slick-slide h3 {
-  background: #fff;
-  border: 1px solid green;
-  color: #3498db;
-  font-size: 36px;
-  line-height: 100px;
-  margin: 10px;
-  padding: 2%;
+.
+.deubordel {
   position: relative;
+}
+#inspiration{
+  background-color: #f4f4f4;
+  text-align: center;
+  width: 50%;
+  position: relative;
+  transform: translate(20px, -20px);
+  box-shadow: rgba(0,0,0, 0.25) 20px 20px 20px;
+
+}
+#ouioui{
+  width: 50%;
   text-align: center;
 }
-.action{
-  display:block;
-  margin:100px auto;
-  width:100%;
-  text-align:center;
+.inspiintro{
+  margin-top: 4%;
 }
-.action a {
-  display:inline-block;
-  padding:5px 10px;
-  background:#f30;
-  color:#fff;
-  text-decoration:none;
+.ingpiintro{
+  margin-top: 5%;
+  width: 90%;
 }
-.action a:hover{
-  background:#000;
+.inspipart1{
+  display: inline;
+}
+.inspipart2{
+  display: inline-block;
+}
+article#inspiration{
+
+
+}
+section > article{
+  float: left;
+  width: 50px;
 }
 
-#newsletter{
-  height: 100px;
-  background-color: #7C7C7C;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.inscriptionletter {
-  margin-top: 20px;
-}
+
+
+
+
+
 
 /* ________________________________________Footer__________________________________________*/
-
-ooter{
-  background-color: #fff;
-}
-
-footer>img{
-  /* Style for "TEMPO NOIR" */
-  width: 249px;
-  height: 84px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer>h2{
-  /* Style for "Newsletter" */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 234px;
-  height: 32px;
-  color: #242424;
-  font-family: Viga;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 25px;
-}
-
-footer>.inscriptionletter{
-  /* Style for "Pour vous" */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 388px;
-  height: 47px;
-  color: #242424;
-  font-family: "Montserrat Light";
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  line-height: 25px;
-  text-transform: uppercase;
-}
-
-footer input[type="email"]{
-  /* Style for "Rectangle" */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 580px;
-  height: 75px;
-  border: 1px solid #242424;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-footer .adresse{
-  display: none;
-}
-
-@media (min-width: 48em) {
-
-  footer>img{
-    /* Style for "TEMPO NOIR" */
-    display: none;
-  }
-
-}
