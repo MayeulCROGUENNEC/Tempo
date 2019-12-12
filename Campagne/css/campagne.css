@@ -781,6 +781,27 @@ html .ui-button.ui-state-disabled:active {
 .pbold{
   font-weight: bold;
 }
+.textsection6{
+  display: none;
+}
+
+@media (min-width: 48em) {
+  .textsection6{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+    top: 20px;
+  }
+
+  .textsection6 h2{
+    margin-bottom: 0;
+  }
+
+  .textsection6 p{
+    margin-top: 0;
+  }
+}
   /*__________________________carré__bacgrounnd____*/
   .carréfontsection4{
     height: 40%;
