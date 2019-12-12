@@ -257,6 +257,7 @@ button{
 #inspiration{
   background-color: #84599D;
   text-align: center;
+  margin-top: 100px;
   width: 49%;
   float: left;
   position: relative;
@@ -267,6 +268,7 @@ button{
 #ouioui{
   width: 49%;
   float: left;
+  margin-top: 100px;
   margin-left: 2%;
   text-align: center;
 }
