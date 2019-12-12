@@ -272,6 +272,14 @@ button{
 }
 .inspiintro{
   margin-top: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.inspiintro2{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .ingpiintro{
   margin-top: 5%;
@@ -287,6 +295,7 @@ button{
 #descrip p{
   text-align: center;
   width: 80%;
+  margin-top: 50px;
   margin-left: 10%;
   font-size: 28px;
   font-family: Avenir;
