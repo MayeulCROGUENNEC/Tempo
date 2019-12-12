@@ -368,8 +368,23 @@ button{
     margin-top: 50px;
     width: 50%;
   }
-}}
+}
 
+/*_________________________________________pouloulou________________________________________*/
+#pouloulou{
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: #EEE8F2;
+  text-align: center;
+}
 
+#pouloulou h3{
+  margin-top: 30px;
+}
+#pouloulou img{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
 
+}
 /* ________________________________________Footer__________________________________________*/
