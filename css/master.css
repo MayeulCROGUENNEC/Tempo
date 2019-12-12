@@ -249,7 +249,7 @@ button{
 /*_________________________________________________________FIN_section___vidéo___________________________________________________*/
 /*__________________________________________________________section___gallery___________________________________________________*/
 .
-.deubordel {
+.mainslider {
   position: relative;
   float: left;
   width: 50px;
@@ -296,7 +296,7 @@ button{
 
 @media (min-width: 48em) {
   .
-  .deubordel {
+  .mainslider {
     position: relative;
     float: left;
     width: 50px;
@@ -349,8 +349,26 @@ button{
 
 
 }
+/*__________________________________________valeurspartager_________________________________*/
 
+#valeurspartager{
+  text-align: center;
+  margin-top: 150px;
+}
 
+#valeurspartager p{
+  margin-top: 50px;
+}
+#valeurspartager img{
+  margin-top: 50px;
+  width: 80%;
+}
+@media (min-width: 48em) {
+  #valeurspartager img {
+    margin-top: 50px;
+    width: 50%;
+  }
+}}
 
 
 
