@@ -284,6 +284,16 @@ button{
   padding-top: 3%;
 }
 
+#descrip p{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 28px;
+  font-family: Avenir;
+
+}
+
+
 @media (min-width: 48em) {
   .
   .deubordel {
@@ -308,6 +318,7 @@ button{
     margin-top: 100px;
     margin-left: 2%;
     text-align: center;
+    margin-bottom: 80px;
   }
   .inspiintro{
     margin-top: 4%;
@@ -326,6 +337,14 @@ button{
 
   #inspiration h2{
     padding-top: 3%;
+  }
+
+  #descrip p{
+    text-align: center;
+    width: 60%;
+    margin-left: 16%;
+    font-size: 28px;
+    font-family: Avenir;
   }
 
 
